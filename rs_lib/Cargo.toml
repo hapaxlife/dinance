@@ -1,0 +1,16 @@
+[package]
+name = "rs_lib"
+version = "0.0.1"
+edition = "2021"
+authors = ["Hapax life"]
+license = "The Unlicense"
+description = "Finance for Deno in Rust"
+
+[lib]
+crate_type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "=0.2.87"
+time = { version = "0.3", features = ["parsing", "macros"] }
+js-sys = "0.3.64"
+rstest = "0.18.2"
