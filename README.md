@@ -1,8 +1,11 @@
 # DINANCE
 
 Finance module for Deno in Rust & WASM
+- XIRR
+- DaysBetween
+- YearFraction
 
-Not fully implemented
+Others functions are not fully implemented or wrapped
 
 :warning: Bench results show that Rust is **much slower** than Deno function 
 
