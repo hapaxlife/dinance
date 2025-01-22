@@ -1,7 +1,4 @@
-import {
-  assertAlmostEquals,
-  assertEquals,
-} from "https://deno.land/std@0.204.0/assert/mod.ts";
+import { assertAlmostEquals, assertEquals } from "jsr:@std/assert";
 
 import { instantiate } from "../lib/rs_lib.generated.js";
 import { DayCount } from "./type.ts";

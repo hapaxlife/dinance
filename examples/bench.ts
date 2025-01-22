@@ -1,14 +1,14 @@
 import { PV as PV_Deno, XIRR as XIRR_Deno } from "./finance.ts";
 
-import { parse } from "https://deno.land/std@0.204.0/csv/parse.ts";
-import * as path from "https://deno.land/std@0.204.0/path/mod.ts";
+import { parse } from "jsr:@std/csv";
+import * as path from "jsr:@std/path";
 
 import { instantiate } from "../lib/rs_lib.generated.js";
 import { DayCount } from "./type.ts";
 
 const {
   XIRR,
-  PV
+  PV,
 } = await instantiate();
 
 /**
