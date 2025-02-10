@@ -3,13 +3,12 @@ import { PV as PV_Deno, XIRR as XIRR_Deno } from "./finance.ts";
 import { parse } from "jsr:@std/csv";
 import * as path from "jsr:@std/path";
 
-import { instantiate } from "../lib/rs_lib.generated.js";
+import {
+  XIRR,
+  PV
+} from "../lib/rs_lib.js";
 import { DayCount } from "./type.ts";
 
-const {
-  XIRR,
-  PV,
-} = await instantiate();
 
 /**
  * Load sample dates and payments in the samples directory

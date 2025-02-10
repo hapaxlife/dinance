@@ -11,10 +11,6 @@
  * DaysBetween(new Date(2015, 11, 1), new Date(2016, 7, 1), DayCount.ACT_360)
  *
  * ```
- * @param {Date} d1
- * @param {Date} d2
- * @param {string} day_count
- * @returns {number}
  */
 export function DaysBetween(d1: Date, d2: Date, day_count: string): number;
 /**
@@ -26,10 +22,6 @@ export function DaysBetween(d1: Date, d2: Date, day_count: string): number;
  * DaysBetween(new Date(2015, 11, 1), new Date(2016, 7, 1), DayCount.ACT_360)
  *
  * ```
- * @param {Date} d1
- * @param {Date} d2
- * @param {string} day_count
- * @returns {number}
  */
 export function YearFraction(d1: Date, d2: Date, day_count: string): number;
 /**
@@ -49,11 +41,6 @@ export function YearFraction(d1: Date, d2: Date, day_count: string): number;
  *  )
  *
  * ```
- * @param {Array<any>} dates
- * @param {Array<any>} amounts
- * @param {number} guess
- * @param {string} day_count
- * @returns {number}
  */
 export function XIRR(
   dates: Array<any>,
@@ -70,9 +57,5 @@ export function XIRR(
  * PV(5 / 100, 100, 5)
  *
  * ```
- * @param {number} rate
- * @param {number} cf1
- * @param {number} num_of_period
- * @returns {number}
  */
 export function PV(rate: number, cf1: number, num_of_period: number): number;

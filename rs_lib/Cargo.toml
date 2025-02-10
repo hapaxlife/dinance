@@ -10,7 +10,7 @@ description = "Finance for Deno in Rust"
 crate_type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = "=0.2.95"
+wasm-bindgen = "=0.2.100"
 time = { version = "0.3", features = ["parsing", "macros"] }
-js-sys = "0.3.72"
+js-sys = "0.3.77"
 rstest = "0.18.2"
